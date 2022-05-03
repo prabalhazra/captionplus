@@ -5,20 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import com.phono.captionplus.databinding.FragmentSplashBinding
+import com.phono.captionplus.R
+import com.phono.captionplus.databinding.FragmentMainBinding
 
-class SplashFragment : Fragment() {
+class MainFragment : Fragment() {
 
-    private var _binding : FragmentSplashBinding? = null
+    private var _binding: FragmentMainBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentSplashBinding.inflate(layoutInflater, container, false)
-        (activity as AppCompatActivity).supportActionBar?.hide()
+        _binding = FragmentMainBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
 
