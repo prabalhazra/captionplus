@@ -9,7 +9,13 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- custom color -->
-    <color name="primary_color">#D6C6B7</color>
-    <color name="secondary_color">#0A502E</color>
+    <color name="primary_color">#F28372</color>
+    <color name="btn_color">#282828</color>
+    <color name="dark_black">#212121</color>
+    <color name="dark_black_60">#99212121</color>
+    <color name="unselected_indicator">#33F28372</color>
+
+    <color name="tool_bar_color">#fff</color>
+    <color name="menu_color">#212121</color>
 
 </resources>

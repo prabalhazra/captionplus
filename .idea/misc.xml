@@ -4,9 +4,30 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Phono/captionplus/app/src/main/res/drawable/ic_caption_plus.xml" value="0.1395" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/drawable/ic_feed.xml" value="0.1395" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/drawable/ic_first_screen_on_boarding.xml" value="0.1395" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/drawable/ic_home.xml" value="0.1395" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/drawable/ic_notifications.xml" value="0.1395" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/drawable/ic_search.xml" value="0.1395" />
         <entry key="..\:/Phono/captionplus/app/src/main/res/layout/activity_main.xml" value="0.21574074074074073" />
-        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_main.xml" value="0.253125" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/activity_on_boarding.xml" value="0.2390625" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/activity_start.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_caption.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_first_screen.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_home.xml" value="0.253125" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_main.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_on_boarding.xml" value="0.2390625" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_onboading_view_pager.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_onboarding_view_pager.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_second_screen.xml" value="0.21574074074074073" />
         <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_splash.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/fragment_third_screen.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/layout_caption.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/layout_captions_child.xml" value="0.606516290726817" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/layout_home.xml" value="0.21574074074074073" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/layout/layout_home_items.xml" value="0.536" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/menu/bottom_nav.xml" value="0.253125" />
+        <entry key="..\:/Phono/captionplus/app/src/main/res/menu/tool_bar_menu.xml" value="0.21574074074074073" />
       </map>
     </option>
   </component>

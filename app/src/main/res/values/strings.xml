@@ -1,5 +1,41 @@
 <resources>
-    <string name="app_name">Caption Plus</string>
+    <string name="app_name">Caption Star</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Menu -->
+    <string name="search">Search</string>
+    <string name="notification">Notification</string>
+
+    <!-- Home -->
+    <string name="view_all">View All</string>
+
+    <!-- Bottom nav -->
+    <string name="home">Home</string>
+    <string name="feed">Feed</string>
+    <string name="profile">Profile</string>
+
+    <!-- Onboarding screen -->
+    <string name="onboarding_first_screen_title">Click Amazing Pictures</string>
+    <string name="onboarding_first_screen_desc">Focus on clicking amazing pictures that\nsuits
+        your personality and brigs you a\ngood shine.</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="onboarding_second_screen_title">Gain Popularity</string>
+    <string name="onboarding_second_screen_desc">Get more likes, comments and
+        followers\non instagram and facebook.</string>
+
+    <string name="onboarding_third_screen_title">Compile Pictures</string>
+    <string name="onboarding_third_screen_desc">Put compiling pictures with impactful\nwords and
+        raise your social media to the\nfullest.</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_activity_start">StartActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
 </resources>

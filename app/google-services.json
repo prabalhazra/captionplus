@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:435498978581:android:afa091a507480b1aca6d1c",
+        "mobilesdk_app_id": "1:435498978581:android:6b5b54f3e5517c26ca6d1c",
         "android_client_info": {
-          "package_name": "com.phono.captionplus"
+          "package_name": "com.phono.captionstar"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "435498978581-u3m7rh3r8ri628pdpcbqp6p6h2nu7eq3.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.phono.captionplus",
-            "certificate_hash": "cea700c03da40bd0c1dfe180b65a8b53756eeaf4"
-          }
-        },
         {
           "client_id": "435498978581-9vcr9ehiauvdi3i66th8mmflh2c1thbr.apps.googleusercontent.com",
           "client_type": 3

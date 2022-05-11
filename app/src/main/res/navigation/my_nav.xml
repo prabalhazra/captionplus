@@ -3,20 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/splashFragment">
-
+    app:startDestination="@id/homeFragment">
     <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.phono.captionplus.presentation.SplashFragment"
-        android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" >
-        <action
-            android:id="@+id/action_splashFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
-    </fragment>
+        android:id="@+id/homeFragment"
+        android:name="com.phono.captionstar.presentation.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.phono.captionplus.presentation.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        android:id="@+id/feedFragment"
+        android:name="com.phono.captionstar.presentation.feed.FeedFragment"
+        android:label="@string/feed"
+        tools:layout="@layout/fragment_feed" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.phono.captionstar.presentation.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
