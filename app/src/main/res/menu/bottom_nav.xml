@@ -11,9 +11,9 @@
         android:title="@string/feed"
         android:icon="@drawable/ic_feed"/>
 
-    <item
-        android:id="@+id/profileFragment"
-        android:title="@string/profile"
-        android:icon="@drawable/ic_profile"/>
+<!--    <item-->
+<!--        android:id="@+id/profileFragment"-->
+<!--        android:title="@string/profile"-->
+<!--        android:icon="@drawable/ic_profile"/>-->
 
 </menu>

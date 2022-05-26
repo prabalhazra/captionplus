@@ -25,7 +25,11 @@ class HomeAdapter (
 
     override fun onBindViewHolder(holder: HomeAdapterViewHolder, position: Int) {
         val itemPosition = item[position]
-        adapter = HomeItemAdapter(itemPosition.items!!, context)
+        adapter = HomeItemAdapter(
+            items = itemPosition.items!!,
+            group = itemPosition.group!!,
+            context = context
+        )
         holder.apply {
             binding.captionName.text = itemPosition.name
             binding.homeItemsRecyclerView.adapter = adapter

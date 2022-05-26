@@ -8,15 +8,53 @@
         android:id="@+id/homeFragment"
         android:name="com.phono.captionstar.presentation.home.HomeFragment"
         android:label="@string/home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/to_right"
+            app:exitAnim="@anim/from_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
     <fragment
         android:id="@+id/feedFragment"
         android:name="com.phono.captionstar.presentation.feed.FeedFragment"
         android:label="@string/feed"
-        tools:layout="@layout/fragment_feed" />
+        tools:layout="@layout/fragment_feed">
+        <action
+            android:id="@+id/action_feedFragment_to_feedDetailsFragment"
+            app:destination="@id/feedDetailsFragment"
+            app:enterAnim="@anim/to_right"
+            app:exitAnim="@anim/from_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
     <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.phono.captionstar.presentation.profile.ProfileFragment"
-        android:label="@string/profile"
-        tools:layout="@layout/fragment_profile" />
+        android:id="@+id/detailsFragment"
+        android:name="com.phono.captionstar.presentation.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="group"
+            app:argType="string" />
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedDetailsFragment"
+        android:name="com.phono.captionstar.presentation.feed.FeedDetailsFragment"
+        android:label="fragment_feed_details"
+        tools:layout="@layout/fragment_feed_details" >
+        <argument
+            android:name="feed"
+            app:argType="com.phono.captionstar.data.remote.dto.FeedDto" />
+    </fragment>
 </navigation>

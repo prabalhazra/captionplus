@@ -6,6 +6,10 @@
     <!-- Menu -->
     <string name="search">Search</string>
     <string name="notification">Notification</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="search_hint">Search for captions and hashtags</string>
+    <string name="share_via">Share Via Caption Star:</string>
 
     <!-- Home -->
     <string name="view_all">View All</string>
@@ -37,5 +41,16 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Details page -->
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum a neque, in malesuada libero arcu ornare lacus.</string>
+
+    <!-- Feed Page -->
+
+    <string name="feed_title">How to use social media to make a personal brand?</string>
+    <string name="feed_date">6 Jan 2022</string>
+    <string name="feed_content">Neque, accumsan facilisis sit proin faucibus nunc sollicitudin est. In dictumst cras sit donec diam eu, fermentum. Proin tempus ut duis maecenas pharetra, commodo. Non at arcu, tempor ornare ultricies posuere. Lacus viverra massa mauris est. Maecenas elit ipsum lorem eget eu, quis diam vel. Ornare mattis hendrerit est nisl quam dui maecenas elit. Nisi quis mollis id morbi dictum arcu luctus. Aenean suscipit fringilla nunc facilisi. Ullamcorper pellentesque morbi tellus adipiscing mauris, platea ut dignissim.
+Massa massa adipiscing fermentum risus. Augue id aliquam auctor lacus mattis mauris arcu. Tortor pellentesque arcu magna eu pellentesque quis. Pellentesque auctor\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem amet, at turpis condimentum eleifend blandit lacus aliquam. Velit at neque, interdum amet adipiscing cras accumsan nullam. Sapien a nibh ut faucibus faucibus arcu urna, id. Diam ultricies scelerisque sapien aenean sit faucibus at.
+ultricies odio purus in semper enim. Congue vitae purus enim mauris. Volutpat gravida amet sem scelerisque neque. Et aliquam lorem accumsan, purus ut augue. Et, nisl commodo convallis viverra orci, pellentesque tristique. Nisl amet sed venenatis consequat, nibh vivamus. Suspendisse in vitae ultrices malesuada phasellus pharetra pharetra non vulputate. At id vel, mauris tellus cursus. Scelerisque tellus, dictumst quisque enim. </string>
 
 </resources>

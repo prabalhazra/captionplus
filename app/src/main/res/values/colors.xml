@@ -18,4 +18,7 @@
     <color name="tool_bar_color">#fff</color>
     <color name="menu_color">#212121</color>
 
+    <color name="card_color">#FFF9F9</color>
+    <color name="search_color">#F3F3F3</color>
+
 </resources>

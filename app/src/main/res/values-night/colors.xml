@@ -17,5 +17,7 @@
     <color name="tool_bar_color">#99212121</color>
     <color name="menu_color">#fff</color>
 
+    <color name="card_color">#7B7676</color>
+    <color name="search_color">#3D3D3D</color>
 
 </resources>

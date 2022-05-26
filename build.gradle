@@ -6,25 +6,17 @@ buildscript {
         hilt_compiler_version = '1.0.0'
         glide_version = "4.13.0"
     }
-    repositories {
-        google()
-        mavenCentral()
-    }
-
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.3'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
         classpath 'com.google.gms:google-services:4.3.10'
         classpath 'com.google.dagger:hilt-android-gradle-plugin:2.40.1'
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+plugins {
+    id 'com.android.application' version '7.2.1' apply false
+    id 'com.android.library' version '7.2.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.21' apply false
 }
 
 task clean(type: Delete) {
